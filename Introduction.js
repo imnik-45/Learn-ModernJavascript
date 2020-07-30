@@ -18,18 +18,18 @@ commenting in JS
 //Printing to console
 
 console.log("Hello JavaScript");
-console.log('This is Nikhil.');
+
 
 /* alerting in browser
 alert("hello alert in JS...!!!"); 
  */
 
 //creating variables
-
-let age = 25;
-console.log(age);
-age=30;
-console.log(age);
+console.log("----------------------------------------------------------------")
+let age1 = 25;
+console.log(age1);
+age1=30;
+console.log(age1);
 
 const a=25;
 console.log(a);
@@ -64,17 +64,70 @@ Note: Variables are dynamic..
 */
 
 // String operations
-
+console.log("----------------------------------------------------------------")
 let fname="nikhil";
 let lname="singh";
 
-console.log(fname+ " "+lname);
+// concatenating two strings via ' + ' operator
+
+console.log("Concatenation using '+' is= "+fname+ " "+lname);
 
 console.log(fname[0]+" "+lname[0]);
 
+
+// String functions to convert to upper and lower case
 console.log("uppercase = "+ fname.toUpperCase());
 
 let fullname = fname+" " +lname;
 
-console.log("fullname is= "+ fullname.toUpperCase());
+console.log("fullname in UpperCase is= "+ fullname.toUpperCase());
 
+
+// index function 
+let index = lname.indexOf('s');
+
+console.log("IndexOf Function indexof()= "+index);
+
+// slice function slice(m,n-1)
+
+let email="nik@gmail.com"
+
+let result = email.slice(0,2);
+
+console.log("Slice Function slice()= "+result);
+
+//substring function substr(m,n-1)
+
+let result1 = email.substr(0,2);
+
+console.log("substr functions substr()= "+result1);
+
+// replace function replace('old str', 'new str')
+
+console.log("replace function replace()= "+email.replace('n','m'))
+
+//----------------------------------------------------------------------------------------
+
+/* Operations On Numbers - B I D M A S
+
+--> B -Brackets
+--> I -Indices
+--> D -division
+--> M -multiplications
+--> A -Additions  
+--> S -Subtractions
+
+*/
+console.log("----------------------------------------------------------------")
+
+let calc= 5*(10-3)**2;
+console.log("Operation using BIDMAS of ' 5*(10-3)**2 ' is = "+calc);
+
+let likes=25;
+console.log("preincrement of 25= "+ (++likes));
+likes=25;
+console.log("postincrement of 25= "+ (likes++) +  ' is ' +(likes));
+
+// NaN - Not A Number..
+
+console.log("----------------------------------------------------------------")
