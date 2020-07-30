@@ -10,10 +10,9 @@ Modern JavaScript Code Snippets..
 
 ## What we are going to learn ?
 </br>
->
+
 | * | * | * |
 |----------|----------|----------|
 | Strings  | Numbers  | Booleans  |
 | Operators  | Variables  | Functions  |
 | Conditionals | Conditionals | Objects |
->
