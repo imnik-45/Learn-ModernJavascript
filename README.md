@@ -19,3 +19,6 @@ Modern JavaScript Code Snippets..
 -->Conditionals </br>
 -->Arrays </br>
 -->Objects</br>
+
+
+| Paragraph | Text | 
