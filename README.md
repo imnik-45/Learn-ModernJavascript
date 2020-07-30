@@ -15,4 +15,4 @@ Modern JavaScript Code Snippets..
 |----------|----------|----------|
 | Strings  | Numbers  | Booleans  |
 | Operators  | Variables  | Functions  |
-| Conditionals | Conditionals | Objects |
+| Conditionals | DOM | Objects |
