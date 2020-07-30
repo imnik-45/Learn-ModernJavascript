@@ -10,14 +10,15 @@ Modern JavaScript Code Snippets..
 
 ## What we are going to learn ?
 </br>
-> Strings<br />
-> Numbers<br />
-> Booleans<br />
-> Operators<br />
-> Variables <br />
-> Functions<br />
-> Conditionals<br />
-> Arrays<br />
-> Objects<br />
+
+> Strings.<br />
+> Numbers.<br />
+> Booleans.<br />
+> Operators.<br />
+> Variables. <br />
+> Functions.<br />
+> Conditionals.<br />
+> Arrays.<br />
+> Objects.<br />
 
 
