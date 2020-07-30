@@ -20,5 +20,7 @@ Modern JavaScript Code Snippets..
 -->Arrays </br>
 -->Objects</br>
 
-
+ 	| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
 | Paragraph | Text | 
