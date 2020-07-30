@@ -21,4 +21,7 @@ Modern JavaScript Code Snippets..
 > Arrays.<br />
 > Objects.<br />
 
-
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1A  | Cell 1B  | Cell 1C  |
+| Cell 2A  | Cell 2B  | Cell 2C  |
