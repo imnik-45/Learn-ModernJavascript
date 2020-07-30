@@ -7,3 +7,15 @@ Modern JavaScript Code Snippets..
 -->  JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.  <br />
 -->  The standard for JavaScript is ECMAScript.<br />
 --> JS is loosely typed<br />
+
+## What we are going to learn ?
+</br>
+-->Strings</br>
+-->Numbers</br>
+-->Booleans</br>
+-->Operators</br>
+-->Variables </br>
+-->Functions </br>
+-->Conditionals </br>
+-->Arrays </br>
+-->Objects</br>
