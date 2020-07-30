@@ -21,7 +21,7 @@ Modern JavaScript Code Snippets..
 > Arrays.<br />
 > Objects.<br />
 
-
+| Header 1 | Header 2 | Header 3 |
 |----------|----------|----------|
 | Strings  | Numbers  | Booleans  |
 | Operators  | Variables  | Functions  |
