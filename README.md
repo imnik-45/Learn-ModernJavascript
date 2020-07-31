@@ -61,24 +61,23 @@ Modern JavaScript Code Snippets..
 
 ##  Useful Tips for Developers
 
+    1. Use plenty of comments. Comments enable you to explain why you wrote the script the way you did and to explain    particularly difficult sections of code.
 
-   1. Use plenty of comments. Comments enable you to explain why you wrote the script the way you did and to explain    particularly difficult sections of code.
+    2. Always use indentation to make your code easy to read. Indenting statements also makes it easier for you to match up beginning and ending tags, curly braces, and other HTML    and script elements.
 
-   2. Always use indentation to make your code easy to read. Indenting statements also makes it easier for you to match up beginning and ending tags, curly braces, and other HTML    and script elements.
+    3. Write modular code. Whenever possible, group your statements into functions. Functions let you group related statements, and test and reuse portions of code with minimal effort.
 
-   3. Write modular code. Whenever possible, group your statements into functions. Functions let you group related statements, and test and reuse portions of code with minimal effort.
+    4. Be consistent in the way you name your variables and functions. Try using names that are long enough to be meaningful and that describe the contents of the variable or the purpose of the function.
 
-   4. Be consistent in the way you name your variables and functions. Try using names that are long enough to be meaningful and that describe the contents of the variable or the purpose of the function.
+    5. Use consistent syntax when naming variables and functions. In other words, keep them all lowercase or all uppercase; if you prefer Camel-Back notation, use it consistently.
 
-   5. Use consistent syntax when naming variables and functions. In other words, keep them all lowercase or all uppercase; if you prefer Camel-Back notation, use it consistently.
+    6. Test long scripts in a modular fashion. In other words, do not try to write the entire script before testing any portion of it. Write a piece and get it to work before adding the next portion of code.
 
-   6. Test long scripts in a modular fashion. In other words, do not try to write the entire script before testing any portion of it. Write a piece and get it to work before adding the next portion of code.
+    7. Use descriptive variable and function names and avoid using single-character names.
 
-   7. Use descriptive variable and function names and avoid using single-character names.
+    8. Watch your quotation marks. Remember that quotation marks are used in pairs around strings and that both quotation marks must be of the same style (either single or double).
 
-   8. Watch your quotation marks. Remember that quotation marks are used in pairs around strings and that both quotation marks must be of the same style (either single or double).
+    9. Watch your equal signs. You should not used a single = for comparison purpose.use strict comparison (===) for better implementations.
 
-   9. Watch your equal signs. You should not used a single = for comparison purpose.use strict comparison (===) for better implementations.
-
-   10. Declare variables explicitly using the let and const keyword.
+    10. Declare variables explicitly using the let and const keyword.
 
