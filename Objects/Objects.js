@@ -6,26 +6,26 @@ An object is a collection of properties, and a property is an association betwee
 
 //object literals
 
-let user={
-    name:"hello jS",
-    age:25,
-    email:"hello@gmail.com",
-    reg:"India",
-    blogs:["hello","js"],
-    login: function(){
+let user = {
+    name: "hello jS",
+    age: 25,
+    email: "hello@gmail.com",
+    reg: "India",
+    blogs: ["hello", "js"],
+    login: function () {
         console.log("this is login function in user objects...");
     },
-    logout: function(){
+    logout: function () {
         console.log("this is logout functions in user objects...");
     },
-    logBlogs : function(){
-       //  console.log(this.blogs);
-       this.blogs.forEach(blog => {
-           console.log(blog);
-       })
-       console.log(this)
+    logBlogs: function () {
+        //  console.log(this.blogs);
+        this.blogs.forEach(blog => {
+            console.log(blog);
+        })
+        console.log(this)
     }
-   
+
 }
 
 console.log(user);
@@ -33,15 +33,15 @@ console.log(user.reg);
 console.log(user['name']);
 console.log(user['age']);
 
-const key='blogs';
+const key = 'blogs';
 console.log(user[key]);
 
-user['name']="rikk";
+user['name'] = "rikk";
 console.log(user['name']);
 
 //type of user
 
-console.log("type of user= "+typeof user);
+console.log("type of user= " + typeof user);
 
 
 //using function of user objects
@@ -86,45 +86,49 @@ js
 */
 //------------------------------------------------------------
 console.log("\n----------------------- New Stuff ---------------------------------");
-const blogs=[
-    {
-        title:"harry potter", likes:30
+const blogs = [{
+        title: "harry potter",
+        likes: 30
     },
     {
-        title:"Song of ice n fire", likes:29
+        title: "Song of ice n fire",
+        likes: 29
     }
 ];
 
 console.log(blogs)
 
-let people={
-    name:"hello jS",
-    age:25,
-    email:"hello@gmail.com",
-    reg:"India",
+let people = {
+    name: "hello jS",
+    age: 25,
+    email: "hello@gmail.com",
+    reg: "India",
 
-    blogs:[ {
-        title:"harry potter", likes:30
-    },
-    {
-        title:"Song of ice n fire", likes:29
-    }],
+    blogs: [{
+            title: "harry potter",
+            likes: 30
+        },
+        {
+            title: "Song of ice n fire",
+            likes: 29
+        }
+    ],
 
 
-    login: function(){
+    login: function () {
         console.log("this is login function in user objects...");
     },
-    logout: function(){
+    logout: function () {
         console.log("this is logout functions in user objects...");
     },
-    logBlogs : function(){
-       //  console.log(this.blogs);
-       this.blogs.forEach(blog => {
-           console.log(blog.title,blog.likes);
-       });
-    
+    logBlogs: function () {
+        //  console.log(this.blogs);
+        this.blogs.forEach(blog => {
+            console.log(blog.title, blog.likes);
+        });
+
     }
-   
+
 }
 
 people.logBlogs();
@@ -132,18 +136,18 @@ people.logBlogs();
 // Inbuilt objects in javascript
 console.log("\n-------------- Inbuilt Math Objects------------")
 //Math Object
-console.log("value of pi using Math.PI= "+Math.PI);
+console.log("value of pi using Math.PI= " + Math.PI);
+console.log("value of E using Math.E= "+Math.E);
 
-const a=2.8;
-console.log("original value= "+a);
-console.log("ROUNDING USING round()= "+Math.round(a));
-console.log("floor()= "+Math.floor(a));
-console.log("ceil()= "+Math.ceil(a));
-console.log("trunc()= "+Math.trunc(a));
+const a = 2.8;
+console.log("original value= " + a);
+console.log("ROUNDING USING round()= " + Math.round(a));
+console.log("floor()= " + Math.floor(a));
+console.log("ceil()= " + Math.ceil(a));
+console.log("trunc()= " + Math.trunc(a));
 
 //random numbers
 
 const random = Math.random();
-console.log("random number using Math.random= "+random);
-console.log("random number again  using Math.random= "+Math.round(random*100));
-
+console.log("random number using Math.random= " + random);
+console.log("random number again  using Math.random= " + Math.round(random * 100));
