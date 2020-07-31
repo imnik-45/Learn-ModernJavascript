@@ -10,6 +10,13 @@ Modern JavaScript Code Snippets..
 >  The standard for JavaScript is ECMAScript.<br />
 >  JS is loosely typed.<br />
 
+## Scripting vs. Programming Languages
+
+> A programming language may be used to create stand-alone programs. A scripting language is usually built into a specific application like a database or spreadsheet or webpage and cannot be used outside of that application.
+
+> JavaScript is a scripting language, not a full programming language. It is also not an outgrowth of the Java programming language. 
+
+
 ## What we are going to learn ?
 <br />
 
@@ -22,10 +29,46 @@ Modern JavaScript Code Snippets..
 ## Advantages of JavaScript
 <br />
 
-    1. Less server interaction − You can validate user input before sending the page off to the server. This saves server traffic, which means less load on your server.
+    1. Less server interaction − You can validate user input before sending the page off to the server.
+        This saves server traffic, which means less load on your server.
 
     2. Immediate feedback to the visitors − They don't have to wait for a page reload to see if they have forgotten to enter something.
 
     3. Increased interactivity − You can create interfaces that react when the user hovers over them with a mouse or activates them via the keyboard.
 
     4. Richer interfaces − You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich Interface to your site visitors.
+
+<br />
+
+## Limitations of JavaScript
+
+    1. Client-side JavaScript does not allow the reading or writing of files. This has been kept for security reason.
+
+    2. JavaScript cannot be used for networking applications because there is no such support available.
+
+    3. JavaScript doesn't have any multi-threading or multiprocessor capabilities.
+
+<br />
+## Useful Tips for Developers
+
+
+1. Use plenty of comments. Comments enable you to explain why you wrote the script the way you did and to explain    particularly difficult sections of code.
+
+2. Always use indentation to make your code easy to read. Indenting statements also makes it easier for you to match up beginning and ending tags, curly braces, and other HTML and script elements.
+
+3. Write modular code. Whenever possible, group your statements into functions. Functions let you group related statements, and test and reuse portions of code with minimal effort.
+
+4. Be consistent in the way you name your variables and functions. Try using names that are long enough to be meaningful and that describe the contents of the variable or the purpose of the function.
+
+5. Use consistent syntax when naming variables and functions. In other words, keep them all lowercase or all uppercase; if you prefer Camel-Back notation, use it consistently.
+
+6. Test long scripts in a modular fashion. In other words, do not try to write the entire script before testing any portion of it. Write a piece and get it to work before adding the next portion of code.
+
+7. Use descriptive variable and function names and avoid using single-character names.
+
+8. Watch your quotation marks. Remember that quotation marks are used in pairs around strings and that both quotation marks must be of the same style (either single or double).
+
+9. Watch your equal signs. You should not used a single = for comparison purpose.use strict comparison (===) for better implementations.
+
+10. Declare variables explicitly using the let and const keyword.
+
