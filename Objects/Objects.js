@@ -151,3 +151,45 @@ console.log("trunc()= " + Math.trunc(a));
 const random = Math.random();
 console.log("random number using Math.random= " + random);
 console.log("random number again  using Math.random= " + Math.round(random * 100));
+
+/*
+----------------------- New Stuff ---------------------------------
+[
+  { title: 'harry potter', likes: 30 },
+  { title: 'Song of ice n fire', likes: 29 }
+]
+harry potter 30
+Song of ice n fire 29
+
+-------------- Inbuilt Math Objects------------
+value of pi using Math.PI= 3.141592653589793
+value of E using Math.E= 2.718281828459045
+original value= 2.8
+ROUNDING USING round()= 3
+floor()= 2
+ceil()= 3
+trunc()= 2
+random number using Math.random= 0.633160194896206
+random number again  using Math.random= 63
+*/
+
+console.log("\n=========================Primitive Values================================\n");
+
+let scoreOne=50;
+let scoreTwo=scoreOne;
+
+console.log(`scoreOne is ${scoreOne} and scoreTwo is ${scoreTwo}`);
+
+scoreOne=100;
+
+console.log(`changed scoreOne is ${scoreOne} and scoreTwo is ${scoreTwo}`);
+
+// reference values/types
+console.log("\n=========================Reference Values================================\n");
+const userOne ={name:"nik",age:22};
+const userTwo = userOne;
+console.log(userOne,userTwo);
+
+userOne.age=23;
+console.log("changed values but both variable point to same object");
+console.log(userOne,userTwo);
